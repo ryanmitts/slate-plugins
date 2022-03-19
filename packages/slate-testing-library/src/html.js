@@ -1,4 +1,4 @@
-import { createHyperscript } from "slate-hyperscript";
+import { createHyperscript } from "@slate-legacy/slate-hyperscript";
 import htm from "htm";
 
 const createHTML = options => {

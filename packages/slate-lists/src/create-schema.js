@@ -1,4 +1,4 @@
-import { Block, Text } from "slate";
+import { Block, Text } from "@slate-legacy/slate";
 
 export default ({ blocks }) => {
   return {

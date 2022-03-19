@@ -1,5 +1,5 @@
 {
-  "name": "@convertkit/slate-code",
+  "name": "@slate-legacy/slate-code",
   "version": "0.1.3",
   "description": "A plugin for handling code in the ConvertKit Editor",
   "main": "dist/index.js",
@@ -19,8 +19,8 @@
     "immutable": "^3.8.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "slate": "^0.44.0",
-    "slate-react": "^0.21.0"
+    "@slate-legacy/slate": "^0.47.10",
+    "@slate-legacy/slate-react": "^0.22.11"
   },
   "files": [
     "dist",
@@ -29,10 +29,10 @@
     "styles.css"
   ],
   "devDependencies": {
-    "@convertkit/slate-testing-library": "^0.0.10"
+    "@slate-legacy/slate-testing-library": "^0.0.10"
   },
   "dependencies": {
-    "@convertkit/slate-keymap": "^0.1.10",
+    "@slate-legacy/slate-keymap": "^0.1.10",
     "prismjs": "^1.15.0"
   },
   "gitHead": "132cc883904abfa7f09e757e4d42a4727ba042ac"

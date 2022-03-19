@@ -1,6 +1,6 @@
 /** @jsx h */
 import h from "../../../shared/hyperscript";
-import SlateTest, { createEvent } from "@convertkit/slate-testing-library";
+import SlateTest, { createEvent } from "@slate-legacy/slate-testing-library";
 import Lists from "../src";
 
 describe("onShiftEnter", () => {

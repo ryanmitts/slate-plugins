@@ -1,5 +1,5 @@
 {
-  "name": "@convertkit/slate-lists",
+  "name": "@slate-legacy/slate-lists",
   "version": "0.2.11",
   "description": "A plugin for handling lists in a Slate editor",
   "main": "dist/index.js",
@@ -19,8 +19,8 @@
     "immutable": "^3.8.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "slate": "^0.44.0",
-    "slate-react": "^0.21.0"
+    "@slate-legacy/slate": "^0.47.10",
+    "@slate-legacy/slate-react": "^0.22.11"
   },
   "files": [
     "dist",
@@ -30,10 +30,13 @@
     "styles.css"
   ],
   "devDependencies": {
-    "@convertkit/slate-testing-library": "^0.0.10"
+    "@slate-legacy/slate-testing-library": "^0.0.10"
   },
   "dependencies": {
-    "@convertkit/slate-keymap": "^0.1.10"
+    "@slate-legacy/slate-keymap": "^0.1.10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "gitHead": "21aa1f83093dc2e5e42e7397b5f09c2db8b752ef"
 }

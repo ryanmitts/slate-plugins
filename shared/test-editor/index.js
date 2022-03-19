@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
-import { Editor } from "slate-react";
-import { Value } from "slate";
+import { Editor } from "@slate-legacy/slate-react";
+import { Value } from "@slate-legacy/slate";
 import "./index.css";
 
 const TestEditor = React.forwardRef(

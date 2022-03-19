@@ -1,9 +1,9 @@
 /** @jsx h */
-import { Editor } from "slate";
-import hyperprint from "slate-hyperprint";
+import { Editor } from "@slate-legacy/slate";
+import hyperprint from "@slate-legacy/slate-hyperprint";
 import events from "./events";
-import { createHTM } from "@convertkit/slate-htm";
-import { createHyperscript } from "slate-hyperscript";
+import { createHTM } from "@slate-legacy/slate-htm";
+import { createHyperscript } from "@slate-legacy/slate-hyperscript";
 import diff from "jest-diff";
 
 const h = createHyperscript({});

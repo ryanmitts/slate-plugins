@@ -1,4 +1,4 @@
-import { Block } from "slate";
+import { Block } from "@slate-legacy/slate";
 
 export default ({ blocks }, editor) => {
   const { document, startBlock } = editor.value;

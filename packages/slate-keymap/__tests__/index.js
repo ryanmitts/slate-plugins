@@ -1,5 +1,5 @@
 import KeyMap from "../src";
-import { createEvent } from "@convertkit/slate-testing-library";
+import { createEvent } from "@slate-legacy/slate-testing-library";
 
 describe("KeyMap", () => {
   it("should call a function when the key is pressed", () => {

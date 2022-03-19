@@ -1,5 +1,5 @@
 {
-  "name": "slate-plugins",
+  "name": "slate-legacy",
   "license": "MIT",
   "module": "es/index.js",
   "scripts": {
@@ -14,11 +14,6 @@
     "start": "yarn docz dev"
   },
   "dependencies": {
-    "@convertkit/slate-code": "file:packages/slate-code",
-    "@convertkit/slate-htm": "file:packages/slate-htm",
-    "@convertkit/slate-keymap": "file:packages/slate-keymap",
-    "@convertkit/slate-lists": "file:packages/slate-lists",
-    "@convertkit/slate-testing-library": "file:packages/slate-testing-library",
     "@fortawesome/fontawesome-svg-core": "^1.2.16",
     "@fortawesome/free-regular-svg-icons": "^5.8.0",
     "@fortawesome/free-solid-svg-icons": "^5.8.0",
@@ -37,8 +32,8 @@
     "pretty-quick": "^1.10.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "slate": "^0.44.12",
-    "slate-react": "^0.21.18",
+    "@slate-legacy/slate": "^0.47.10",
+    "@slate-legacy/slate-react": "^0.22.11",
     "style-loader": "^0.23.1",
     "webpack": "4.41.0"
   },

@@ -1,4 +1,4 @@
-import KeyMap from "@convertkit/slate-keymap";
+import KeyMap from "@slate-legacy/slate-keymap";
 import createCommands from "./create-commands";
 import createNormalizeNode from "./create-normalize-node";
 import createRenderBlock from "./create-render-block";

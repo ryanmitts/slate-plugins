@@ -1,4 +1,4 @@
-import { createHTM } from "@convertkit/slate-htm";
+import { createHTM } from "@slate-legacy/slate-htm";
 
 export default createHTM({
   blocks: {

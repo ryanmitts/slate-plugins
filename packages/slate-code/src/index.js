@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SyntaxHighlight from "./plugins/syntax-highlight";
-import KeyMap from "@convertkit/slate-keymap";
+import KeyMap from "@slate-legacy/slate-keymap";
 
 const getNextIndent = text => {
   return Math.max(text.search(/\S/), 0);

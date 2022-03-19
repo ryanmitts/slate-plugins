@@ -1,4 +1,4 @@
-import SlateTest, { createEvent } from "@convertkit/slate-testing-library";
+import SlateTest, { createEvent } from "@slate-legacy/slate-testing-library";
 import html from "../../../shared/htm";
 import Blockquotes from "../src";
 

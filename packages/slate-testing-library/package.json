@@ -1,5 +1,5 @@
 {
-  "name": "@convertkit/slate-testing-library",
+  "name": "@slate-legacy/slate-testing-library",
   "version": "0.0.10",
   "description": "A library to help with testing Slate editors",
   "main": "dist/index.js",
@@ -15,8 +15,8 @@
     "immutable": "^3.8.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "slate": "^0.44.0",
-    "slate-react": "^0.21.0"
+    "@slate-legacy/slate": "^0.47.10",
+    "@slate-legacy/slate-react": "^0.22.11"
   },
   "files": [
     "dist",
@@ -25,7 +25,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@convertkit/slate-htm": "file:../slate-htm",
+    "@slate-legacy/slate-htm": "file:../slate-htm",
     "htm": "^2.0.0",
     "jest-diff": "^24.0.0",
     "slate-hyperprint": "^2.3.0",
